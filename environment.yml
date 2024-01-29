@@ -1,0 +1,28 @@
+name: gdd-uebung
+channels:
+  - conda-forge
+dependencies:
+  - python==3.10.12
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - h5py
+  - flake8
+  - black
+  - pytables
+  - jupyter
+  - jupyterlab
+  - notebook==6.5.5
+  - pytest
+  - pytest-timeout
+  - hypothesis
+  - jupyter_contrib_nbextensions
+  - rise
+  - jupyterlab-h5web
+  - pip
+  - pip:
+      - plotid==0.3.1
+      - Pillow==9.5.0
+      - pycodestyle_magic
+      - jupyterlab_rise
